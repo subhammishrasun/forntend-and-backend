@@ -1,0 +1,223 @@
+/* Service Page Styles */
+
+/* Introduction */
+.introduction {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #b9cee3;
+}
+
+.introduction h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.introduction p {
+    font-size: 18px;
+}
+
+/* Service Cards */
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.service-card {
+    flex: 1 1 calc(33.333% - 20px);
+    flex-direction: row;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background-color: #d7a5a5;
+}
+
+.service-card img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.service-card .read-more {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.service-card .read-more:hover {
+    text-decoration: underline;
+}
+
+/* Highlighted Products */
+.highlighted-products {
+    padding: 40px 20px;
+    background-color: #2b2e32;
+}
+
+.product-card {
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background-color: #edd9d9;
+}
+
+.product-card img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.product-card .read-more {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.product-card .read-more:hover {
+    text-decoration: underline;
+}
+
+/* Client Testimonials */
+.client-testimonials {
+    padding: 40px 20px;
+    background-color: #edcfcf;
+}
+
+.client-testimonials blockquote {
+    border-left: 4px solid #007BFF;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.client-testimonials blockquote p {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Contact Information */
+.contact-information {
+    padding: 40px 20px;
+    background-color: #c1d4e7;
+    text-align: center;
+}
+
+.contact-information address p {
+    margin: 5px 0;
+}
+
+.contact-information a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-information a:hover {
+    text-decoration: underline;
+}
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer Links */
+.footer .footer-links {
+    margin: 20px 0;
+}
+
+.footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Icons */
+.footer .social-media-icons {
+    margin: 20px 0;
+}
+
+.footer .social-media-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.footer .social-media-icons a:hover {
+    color: #007BFF; /* Highlight color on hover */
+}
+
+/* Newsletter Signup */
+.footer .newsletter-signup {
+    margin-top: 20px;
+}
+
+.footer .newsletter-signup p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer .newsletter-signup input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 120px);
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.footer .newsletter-signup button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer .newsletter-signup button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
